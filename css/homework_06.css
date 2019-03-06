@@ -37,14 +37,14 @@ html {
     top: -40px;
 }
 
-.nav-text p:first-child {
+.p-first {
     width: 200px;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
 }
 
-.nav-text p:last-child {
-    font-size: 8px;
+.p-second {
+    font-size: 12x !important;
 }
 
 
@@ -63,7 +63,7 @@ html {
     height: 510px;
     position: absolute;
     background-color: #FFF;
-    top: 40px;
+    top: 78px;
     right: 360px;
 }
 
@@ -89,6 +89,7 @@ html {
     border: 0;
     margin: 10px 40px;
     font-size: 22px;
+    outline: none;
 }
 
 .inp input {
@@ -182,8 +183,9 @@ hr {
 }
 
 .zhifubao {
-    width: 40px;
-    background-position-x: -54px;
+    width: 25px;
+    background-position-x: -56px;
+    background-position-y: 1px;
 }
 
 .weixin {

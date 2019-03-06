@@ -1,0 +1,222 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 顶部标题 */
+
+html {
+    width: 1920px;
+}
+
+.nav {
+    height: 15%;
+}
+
+.nav-body {
+    position: relative;
+    left: 430px;
+    height: 100px;
+}
+
+.logo {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 25px;
+    background-color: #F56600;
+}
+
+.nav-text {
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 75px;
+    top: -40px;
+}
+
+.nav-text p:first-child {
+    width: 200px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.nav-text p:last-child {
+    font-size: 8px;
+}
+
+
+/* 身体 */
+
+.body {
+    height: 588px;
+    width: 100%;
+    position: relative;
+    background-image: url("../images/xiaomi.jpeg");
+    background-position-x: -280px;
+}
+
+.login {
+    width: 400px;
+    height: 510px;
+    position: absolute;
+    background-color: #FFF;
+    top: 40px;
+    right: 360px;
+}
+
+.btu {
+    padding: 10px;
+}
+
+.btu>span {
+    height: 25px;
+    font-size: 20px;
+    color: #7D8289;
+}
+
+.btu button:first-child {
+    color: #F56600;
+}
+
+.btu>button {
+    width: 100px;
+    height: 50px;
+    color: #AAA;
+    background-color: transparent;
+    border: 0;
+    margin: 10px 40px;
+    font-size: 22px;
+}
+
+.inp input {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 340px;
+    height: 50px;
+    font-size: 16px;
+    color: #cccccc;
+    outline: none;
+}
+
+.sure {
+    margin-left: 30px;
+    border: 0;
+    width: 340px;
+    height: 50px;
+    background-color: #F56600;
+    font-size: 20px;
+    color: #fff;
+}
+
+.reg {
+    text-align: center;
+    margin-top: 10px;
+    color: #cccccc;
+}
+
+.reg>a {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: #cccccc;
+}
+
+hr {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+}
+
+.login>p {
+    position: absolute;
+    left: 150px;
+    bottom: 82px;
+    background-color: #FFF;
+}
+
+.next {
+    margin-top: 25px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.next>a,
+.next>a>i {
+    display: inline-block;
+}
+
+.next>a {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background-color: #333;
+    border-radius: 50%;
+}
+
+.next>a>i {
+    height: 19px;
+    background-image: url("../images/icons_type.png");
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+}
+
+.qq {
+    width: 19px;
+    background-position-x: -19px;
+}
+
+.weibo {
+    width: 19px;
+    background-position-x: -38px;
+}
+
+.zhifubao {
+    width: 40px;
+    background-position-x: -54px;
+}
+
+.weixin {
+    width: 30px;
+    background-position-x: -81px;
+}
+
+
+/* 底部 */
+
+.bottom {
+    position: relative;
+    height: 200px;
+}
+
+.inform {
+    height: 70px;
+    width: 700px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: #7D8289;
+}
+
+.inform a {
+    text-decoration: none;
+    color: #7D8289;
+}
+
+.inform p {
+    margin-top: 10px;
+}

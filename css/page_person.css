@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.person {
+    height: 1000px;
+    width: 800px;
+    background-color: #EBEBEB;
+}
+
+.user-name {
+    width: 319px;
+    height: 152px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.user-name img {
+    margin-top: 21px;
+    margin-left: 30px;
+}
+
+.content {
+    height: 152px;
+    border: 1px solid #CECECE;
+    box-sizing: border-box;
+}
+
+.text {
+    float: right;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+.text p:first-child {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.bundling {
+    display: inline-block;
+    width: 478px;
+    height: 150px;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.bundling img {
+    margin-left: 40px;
+    position: relative;
+    top: 2px;
+}
+
+.weixin,
+.phone {
+    margin-left: 5px;
+    margin-top: 54px;
+    display: inline-block;
+}
+
+.weixin+a {
+    text-decoration: none;
+    position: relative;
+    right: 15px;
+    color: #1AC0C0;
+}
+
+.phone+a {
+    text-decoration: none;
+    position: relative;
+    right: 42px;
+    color: #1AC0C0;
+}
+
+.line {
+    width: 319px;
+    height: 95px;
+    border-right: 1px solid #CECECE;
+    position: absolute;
+    top: 28.5px;
+    box-sizing: border-box;
+}

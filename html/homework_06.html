@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
     <link rel="stylesheet" href="../css/homework_06.css">
     <link rel="stylesheet" href="http://at.alicdn.com/t/font_1066453_j5nmnh739ps.css">
 </head>
@@ -14,40 +15,51 @@
     <!-- 顶部 -->
     <div class="nav">
         <div class="nav-body">
-            <div class="logo">
-                <img src="../images/mi-logo.png" alt="">
-            </div>
-            <div class="nav-text">
-                <p class="p-first">小米商城</p>
-                <p class="p-second">让每个人都能享受科技的乐趣</p>
-            </div>
+            <img src="../images/mi_logo1.png" alt="">
         </div>
     </div>
 
     <!-- 身体 -->
     <div class="body">
         <div class="login">
-            <div class="btu">
-                <button>帐号登录</button>
-                <span>|</span>
-                <button>扫码登录</button>
+            <div class="check">
+                <span class="active">
+                    帐号登录
+                </span> |
+                <span>
+                    扫码登录
+                </span>
             </div>
-            <div class="inp">
-                <input type="text" value="邮箱/手机号码/小米帐号" onfocus="this.value=''" onblur="this.value='邮箱/手机号码/小米帐号'">
-                <input type="text" value="密码" onfocus="this.value=''" onblur="this.value='密码'">
-            </div>
-            <button class="sure">立即登录</button>
-            <div class="reg">
-                <a href="#">注册小米帐号</a>|
-                <a href="#">忘记密码?</a>
-            </div>
-            <hr>
-            <p>其他方式登录</p>
-            <div class="next">
-                <a href="#" style="background-color:#0288d1;"><i class="qq"></i></a>
-                <a href="#" style="background-color:#d32f2f;"><i class="weibo"></i></a>
-                <a href="#" style="background-color:#0ae;"><i class="zhifubao"></i></a>
-                <a href="#" style="background-color:#00d20d;"><i class="weixin"></i></a>
+            <div class="body-content">
+                <div class="account">
+                    <div class="inp">
+                        <span>
+                        <input type="text" value="邮箱/手机号码/小米帐号" onfocus="this.value=''" onblur="this.value='邮箱/手机号码/小米帐号'">
+                   </span>
+                        <span>
+                        <input type="text" value="密码" onfocus="this.value=''" onblur="this.value='密码'">
+                   </span>
+                    </div>
+                    <button class="sure">登录</button>
+                    <div class="reg">
+                        <a href="#" style="color:#F56600;">手机短信登录/注册</a>
+                        <a href="#">立即注册</a>|
+                        <a href="#">忘记密码?</a>
+                    </div>
+                    <div class="other">
+                        <p>其他方式登录</p>
+                        <div class="next">
+                            <a href="#" style="background-color:#0288d1;"><i class="qq"></i></a>
+                            <a href="#" style="background-color:#d32f2f;"><i class="weibo"></i></a>
+                            <a href="#" style="background-color:#0ae;"><i class="zhifubao"></i></a>
+                            <a href="#" style="background-color:#00d20d;"><i class="weixin"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="saoma">
+                    <img src="../images/erwei.png" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -63,6 +75,12 @@
         </div>
 
     </div>
+    <script>
+        $(".check span").click(function() {
+            $(this).addClass("active").siblings().removeClass("active");
+            $(".body-content>div").eq($(this).index()).show().siblings().hide();
+        })
+    </script>
 </body>
 
 </html>

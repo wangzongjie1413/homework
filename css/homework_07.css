@@ -131,6 +131,10 @@
     padding: 5px 0
 }
 
+.person:hover {
+    color: #FEA701;
+}
+
 .body-left ul {
     margin-left: 55px;
 }
@@ -156,6 +160,10 @@
 .iframe {
     width: 800px;
     height: 1000px;
+}
+
+.foc a:hover {
+    color: #FEA701;
 }
 
 

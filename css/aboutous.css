@@ -1,0 +1,21 @@
+.page-two-end {
+    height: 100%;
+    margin-top: 30px;
+    min-height: 400px;
+}
+
+.site-page-two img {
+    width: 100%
+}
+
+.page-two-end .product_title~div {
+    margin-top: 30px;
+}
+
+.tips {
+    color: #2dae36;
+}
+
+.page-two-end div:last-child p {
+    text-indent: 2em;
+}

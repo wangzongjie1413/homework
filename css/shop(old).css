@@ -1,4 +1,4 @@
-﻿* {
+* {
     margin: 0;
     padding: 0;
 }
@@ -340,7 +340,7 @@ h3 {
     width: 310px;
     height: 155px;
     box-sizing: border-box;
-    border-bottom: 1px solid #CCC;
+    border-bottom: 1px solid #333;
 }
 
 .mitu div:last-child {

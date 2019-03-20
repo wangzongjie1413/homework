@@ -404,3 +404,21 @@ hr {
     bottom: 0px;
     right: 10px;
 }
+
+.d2 {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.d2 a {
+    display: inline-block;
+    border: 1px solid #333;
+    width: 70px;
+    line-height: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: #333;
+    text-decoration: none;
+}
